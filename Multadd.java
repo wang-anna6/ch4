@@ -6,7 +6,7 @@ public class Multadd
         multadd(a, b, c);
         
         System.out.println(multadd(0.5, Math.cos(Math.PI/4.0), Math.sin(Math.PI/4.0)));
-        System.out.println(multadd(2.0, 1.0, (Math.log(2)/Math.log(10))));
+        System.out.println(multadd(1.0, Math.log10(10), Math.log10(20)));
         System.out.println(expSum(2)); // testing expSum();
     }
     
